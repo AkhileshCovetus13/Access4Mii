@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/mMainView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:padding="7dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_marginRight="120dp"
+                android:id="@+id/mTxtMainLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:text="is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+                android:textSize="22dp" />
+
+
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toStartOf="@+id/mImgExpand"
+                android:background="@mipmap/ic_circle_fill"
+                android:padding="10dp"
+                android:layout_gravity="center">
+
+                <ABS_CUSTOM_VIEW.TextViewSemiBold
+                    android:id="@+id/mTxtMainLocationCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="2"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/mImgExpand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_setting_forwardarrow" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

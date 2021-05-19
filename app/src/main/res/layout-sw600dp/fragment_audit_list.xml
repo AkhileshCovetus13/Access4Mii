@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#eeeeee"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mTopView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/mImgFilterBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:src="@mipmap/ic_filter_by" />
+
+        <ABS_CUSTOM_VIEW.TextViewSemiBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textAllCaps="true"
+            android:text="@string/mTextTitle_my_audit"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/mListChat"
+        android:layout_margin="10dp"
+        android:divider="@color/colorOffWhite"
+        android:dividerHeight="10dp"
+        android:layout_below="@+id/mTopView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+</RelativeLayout>

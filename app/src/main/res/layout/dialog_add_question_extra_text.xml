@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/black_border_ractangel_shap"
+    android:layout_height="wrap_content">
+
+    <ABS_CUSTOM_VIEW.TextViewSemiBold
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Comment For Question"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ABS_CUSTOM_VIEW.EditTextSemiBold
+            android:id="@+id/mEditComment"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/black_border_round_corner_shap"
+            android:gravity="top"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:lines="4"
+            android:textColor="@color/black"
+            android:hint="Enter comment"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ABS_CUSTOM_VIEW.TextViewBold
+            android:layout_marginEnd="20dp"
+            android:id="@+id/mTxtCancelButton"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:background="@drawable/rounded_corner_signin_button"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mText_cancel"/>
+
+        <ABS_CUSTOM_VIEW.TextViewBold
+            android:layout_marginStart="20dp"
+            android:id="@+id/mTxtAddButton"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingStart="35dp"
+            android:paddingEnd="35dp"
+            android:background="@drawable/rounded_corner_signin_button"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mText_add"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

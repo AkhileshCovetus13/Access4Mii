@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:id="@+id/mMAinLAyout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/mImageUser"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:scaleType="centerInside"
+            android:background="@drawable/rounded_circle"
+            android:layout_marginStart="8dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ABS_CUSTOM_VIEW.TextViewSemiBold
+            android:layout_alignParentBottom="true"
+            android:id="@+id/mTextMsgBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/mImageUser"
+            android:background="@mipmap/ic_chat_box_send"
+            android:textSize="17dp"
+            android:text="dfjsdkfkfjksdjfksjfkl"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/mImgBody"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:layout_toStartOf="@+id/mImageUser"
+            android:background="@mipmap/ic_chat_box_send"
+            android:src="@drawable/ic_thumsup"
+            android:padding="8dp"
+           />
+
+        <ImageView
+
+            android:layout_alignParentBottom="true"
+            android:id="@+id/mImgPlay"
+            android:layout_width="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="120dp"
+            android:layout_toStartOf="@+id/mImageUser"
+            android:src="@drawable/ic_play"
+            android:padding="40dp" />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_toStartOf="@+id/mImageUser"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/progressBar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="40dp"
+            android:indeterminateDrawable="@drawable/progressbar_custom"
+            android:background="@android:color/transparent" />
+
+
+    </RelativeLayout>
+
+    <ABS_CUSTOM_VIEW.TextViewRegular
+
+        android:id="@+id/mTextMsgTime"
+        android:text="11:40 AM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/mMAinLAyout" />
+
+
+</RelativeLayout><!--    android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="25dp"-->

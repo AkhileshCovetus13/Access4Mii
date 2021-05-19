@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/red_border"
+    android:id="@+id/mLayoutMain"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="50dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:weightSum="3"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_weight="0.8"
+                android:text="@string/mText_assign_by"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_weight="2.2"
+                android:id="@+id/mTxtAgentName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:weightSum="3"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_weight="0.8"
+                android:text="@string/mText_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_weight="2.2"
+                android:id="@+id/mTxtAuditTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:weightSum="3"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_weight="0.8"
+                android:text="@string/mText_target_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_weight="1"
+                android:id="@+id/mTxtAuditDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart" />
+
+            <LinearLayout
+                android:gravity="right"
+                android:layout_weight="1.2"
+                android:id="@+id/mButtonLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:gravity="bottom"
+                    android:layout_gravity="bottom"
+                    android:id="@+id/imgPreviewReport"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@mipmap/report_preview_icon" />
+
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imgReEditAudit"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@mipmap/re_edit_icon" />
+
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/imgReportFinal"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@mipmap/final_report_icon" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

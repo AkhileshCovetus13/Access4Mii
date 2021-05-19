@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">Access4Mii</string>
+
+    <string name="mTextTitle_app">a c c e s s 4 m i i</string>
+    <string name="mTextTitle_login">SIGN IN</string>
+    <string name="mTextTitle_forget">Forgot Password?</string>
+    <string name="mTextTitle_inspector">Inspector</string>
+    <string name="mTextTitle_auditor">Auditor</string>
+    <string name="mTextTitle_agent_list">Agent List</string>
+    <string name="mTextTitle_submit">SUBMIT</string>
+    <string name="mTextTitle_save">SAVE</string>
+    <string name="mTextTitle_new_password">New Password</string>
+    <string name="mTextTitle_confirm_password">Confirm Password</string>
+    <string name="mTextTitle_update_profile">Update Profile</string>
+    <string name="mTextTitle_contact_us">Contact Us</string>
+    <string name="mTextTitle_sugesstion">Suggestions / Feedback</string>
+    <string name="mTextTitle_profile">Profile</string>
+    <string name="mTextTitle_messages">Messages</string>
+    <string name="mTextTitle_audit_overview">Audit Overview</string>
+    <string name="mTextTile_forgot_your_password">forgot your password?</string>
+    <string name="mTextTitle_notification">Notification</string>
+    <string name="mTextBtnClear_notification">Clear All</string>
+    <string name="mTextTitle_Setting">Settings</string>
+    <string name="mTextTitle_my_audit">My Audit</string>
+    <string name="mTextTitle_email_text">Enter your email address to reset your password</string>
+    <string name="mTextTitle_chat_with_admin">Chat with admin</string>
+    <string name="mTextTitle_build_audit">Build Audit</string>
+    <string name="mTextTitle_selected_location">Selected Location</string>
+    <string name="mTextTitle_draft">Draft</string>
+    <string name="mTextTitle_media">Media</string>
+
+    <string name="mTextMenu_Account">Account</string>
+    <string name="mTextMenu_History">History</string>
+    <string name="mTextMenu_Reports">Reports</string>
+    <string name="mTextMenu_language">Language</string>
+    <string name="mTextMenu_Help">Help</string>
+    <string name="mTextMenu_Logout">Logout</string>
+
+    <string name="mText_forgot_your_password">Forgot your password?</string>
+    <string name="mText_reset_password">Reset your password</string>
+    <string name="mText_enter_password_here">Enter your password here</string>
+    <string name="mText_old_password">Old Password</string>
+    <string name="mText_update">Update</string>
+    <string name="mText_send">Send</string>
+    <string name="mText_update_details">Update Details</string>
+    <string name="mText_chat_with_admin">Chat With Admin</string>
+    <string name="mText_share_audit">Share ACCESS4MII</string>
+    <string name="mText_how_to_use">How To Use</string>
+    <string name="mText_language">Language</string>
+    <string name="mText_push_notification">Push Notification</string>
+    <string name="mText_audit">Audit</string>
+    <string name="mText_message">Message</string>
+    <string name="mText_report">Report</string>
+    <string name="mText_pages">Pages</string>
+    <string name="mText_about_us">About Us</string>
+    <string name="mText_term_and_condition">Term and Condition</string>
+    <string name="mtext_standard_and_good_practices">Standard and Good Practices</string>
+    <string name="mText_news">News</string>
+    <string name="mText_contact_us">Contact Us</string>
+    <string name="mText_field_contact_us">Contact Us</string>
+    <string name="mText_help">Help</string>
+    <string name="mText_target_date">Assigned Date:</string>
+    <string name="mText_assign_by">Assigned By:</string>
+    <string name="mText_title">Title:</string>
+    <string name="mText_view">View</string>
+    <string name="mText_reject">Reject</string>
+    <string name="mText_accept">Accept</string>
+    <string name="mText_agent_detail">Agent Detail</string>
+    <string name="mText_client_detail">Contact Person</string>
+    <string name="mText_attachment_details">Attachment Details</string>
+    <string name="mText_back_again">Press again to exit</string>
+    <string name="mText_success">Your profile has been updated successfully</string>
+    <string name="mText_data_saved">Question saved successfully</string>
+    <string name="mText_Thanku">Thank You !</string>
+    <string name="mText_Thanku_content">Thank you for contacting us !</string>
+    <string name="mText_home">Home</string>
+    <string name="mText_logout">Logout</string>
+    <string name="mText_yes">Yes</string>
+    <string name="mText_no">No</string>
+    <string name="mText_send_chat_request">Send Chat request to start chat with admin</string>
+    <string name="mText_locations_selected">Locations selected for this audit/inspection</string>
+    <string name="mText_locations_content">Content selected for this audit/inspection</string>
+    <string name="mText_new_password">New Password</string>
+    <string name="mText_confirm_password">Confirm Password</string>
+    <string name="mText_select_option_below">Select Option Below</string>
+    <string name="mText_click_on_help">Click on help icon to view details about country standard and langauge</string>
+    <string name="nText_country_standard">Country Standard</string>
+    <string name="mText_next">Next</string>
+    <string name="mText_desc">Description</string>
+    <string name="mText_information_box">Information Box</string>
+    <string name="mText_add_a_sub_folder">Add a sub folder?</string>
+    <string name="mText_folder_name">Folder name</string>
+    <string name="mText_add">Add</string>
+    <string name="mText_camera">Camera</string>
+    <string name="mText_document">Document</string>
+    <string name="mText_cancel">Cancel</string>
+    <string name="mTxt_save">Save</string>
+    <string name="mText_add_photo">Add photo</string>
+    <string name="mText_delete">Delete</string>
+    <string name="mText_edit_photo">Edit Photo</string>
+    <string name="mText_content">Content</string>
+    <string name="mText_warning">Warning !</string>
+    <string name="mText_select_a_file">Select a file</string>
+    <string name="mText_alert">Alert</string>
+    <string name="mText_ok">OK</string>
+    <string name="mText_update_title_and_description">Update Title and Description</string>
+    <string name="mText_alert_sync_audit">Would you like to sync your data on server. Once you start or synced data, would not be able to make any changes further. Do you want to continue?</string>
+    <string name="mText_in_progress">In progress</string>
+    <string name="mText_in_complete">InComplete</string>
+    <string name="mText_complete">Complete</string>
+
+    <string name="mTextFile_date">Date:</string>
+    <string name="mTextFile_time">Time:</string>
+    <string name="mTextFile_due_date">Assigned Date:</string>
+    <string name="mTextFile_area">Area:</string>
+    <string name="mTextFile_name">Name:</string>
+    <string name="mTextFile_email">Email:</string>
+    <string name="mTextFile_number">Number:</string>
+    <string name="mTextFile_address">Address:</string>
+    <string name="mTextFile_landmark">Landmark:</string>
+    <string name="mTextFile_pincode">Pin Code:</string>
+    <string name="mTextFile_imagename">img_</string>
+    <string name="mTextFile_filename">result_</string>
+    <string name="mTextFile_filefolder">/File/</string>
+    <string name="mTextFile_mediaFolder">/Media/</string>
+    <string name="mTextFile_loading">Loading...</string>
+    <string name="mTextFile_auditor">Auditor</string>
+    <string name="mTextFile_inspector">Inspector</string>
+    <string name="mtextFile_this">This will delete</string>
+    <string name="mtextFile_subfolder_msg">" Subfolder including associated questions,Do you want to proceed ?"</string>
+    <string name="mtextFile_question_msg">"  Questions including associated subquestion,Do you want to proceed ?"</string>
+    <string name="mtextFile_foldr_msg">" Folder and Sub folders including associated questions,Do you want to proceed ?"</string>
+    <string name="mtextFile_order_procedd">In order to proceed Audit, You must have to split sub folder as per as total counts !</string>
+    <string name="mTextFile_give_count">Please Select atleast one location</string>
+    <string name="mTextFile_location">Location</string>
+    <string name="mtextFile_done">Done</string>
+    <string name="mtextFile_delete">Delete</string>
+    <string name="mTextFile_select_lang">Select Language</string>
+    <string name="mTextFile_concat_name">Name</string>
+    <string name="mTextFile_concat_module"> Module </string>
+    <string name="mTextFile_no_subfolder">In this location no sub folder is create</string>
+    <string name="mTextFile_archive">Archive</string>
+
+    <string name="mHint_search_by_agent_name">Search by agent name</string>
+    <string name="mHint_search_report">Search</string>
+    <string name="mHint_search_by_user">Search by user</string>
+
+    <string name="mEditHint_password">Password</string>
+    <string name="mEditHint_useremail">Email</string>
+    <string name="mEditHint_username">Email</string>
+    <string name="mEditHint_email_address">Enter Your Email Address</string>
+    <string name="mEditHint_first_name">First Name</string>
+    <string name="mEditHint_last_name">Last Name</string>
+    <string name="mEditHint_email">Email Address</string>
+    <string name="mEditHint_contact_number">Contact Number</string>
+    <string name="mEditHint_subject">Subject</string>
+    <string name="mEditHint_Description">Description</string>
+    <string name="mEditHint_name">Name</string>
+    <string name="mEditHint_type_here">Type Here</string>
+    <string name="mEditHint_write_something_here">Write something here..</string>
+    <string name="mEdithint_location_info">Location info</string>
+
+    <string name="mText_error_change_your_password_here">Please change your password here</string>
+    <string name="mTextFile_error_valid_email">Please enter valid email address.</string>
+    <string name="mTextFile_error_enter_email">Please enter your email address.</string>
+    <string name="mTextFile_error_enter_subject">Please enter the subject.</string>
+    <string name="mTextFile_error_enter_description">Please enter the description.</string>
+    <string name="mTextFile_error_enter_password">Please enter your password.</string>
+    <string name="mTextFile_error_enter_first_name">Please enter your first name.</string>
+    <string name="mTextFile_error_enter_name">Please enter your name.</string>
+    <string name="mTextFile_error_enter_last_name">Please enter your last name.</string>
+    <string name="mTextFile_error_enter_contact">Please enter your contact number.</string>
+    <string name="mTextFile_error_something_went_wrong">Something went wrong</string>
+    <string name="mTextFile_error_no_record_found">No Record Found</string>
+    <string name="mTextFile_error_current_password">Please enter your current password.</string>
+    <string name="mTextFile_error_new_password">Please enter your new password.</string>
+    <string name="mTextFile_error_reenetr_password">Please re-enter your new password.</string>
+    <string name="mTextFile_error_character">Password must contain at least 6 characters.</string>
+    <string name="mTextFile_error_password_not_match">New and confirm password does not match.</string>
+    <string name="mTextFile_error_selcet_country_standard">Please select country standard</string>
+    <string name="mTextFile_error_selcet_language">Please select language</string>
+    <string name="mTextFile_error_selcet_country">Select Country Standard</string>
+    <string name="mTextFile_error_valid_no">Please enter valid phone number</string>
+    <string name="mTextFile_error_audit_title">Please enter title.</string>
+    <string name="mTextFile_error_audit_desc">Please enter description.</string>
+    <string name="mTextFile_error_reinitiate">Re-initiate</string>
+    <string name="mTextFile_error_archive">Archive</string>
+    <string name="mTextFile_error_sync">Please synchronize before starting new audit</string>
+    <string name="mTextFile_error_no_internet">Please connect to internet to send and receive messages.For now you are allowed to view old chat history only.</string>
+    <string name="mTextFile_error_no_internet_agent">Please connect to internet to start new chat with agent.</string>
+
+
+    <string name="mText_alert_sessionexpire">Your account is already logged in on another device. Try logging in again !</string>
+    <string name="mText_alert_logout">Are you sure you want to logout ?</string>
+    <string name="mTextFile_alert_no_internet">You are not connected with internet.</string>
+    <string name="mTextFile_alert_deny_permission">You cannot access app if you deny the permission!</string>
+    <string name="mTextfile_alert_new_download">A new file is downloaded successfully</string>
+    <string name="mTextFile_alert_file_downloading">Please wait file is downloading...</string>
+    <string name="mTextFile_alert_select_file">Please select files having extensions: .doc, .docx, .pdf, .xlsx only.</string>
+    <string name="mtextFile_alert_no_image">No image picked</string>
+    <string name="mtextFile_alert_no_filepath">Sorry, file path is missing!</string>
+    <string name="mTextFile_alert_file_not_download">The file is not downloaded,you have to connect with Internet.</string>
+    <string name="mTextFile_alert_no_handler">No handler for this type of file.</string>
+    <string name="mTextFile_alert_cannot_open">Can\'t open this file.</string>
+    <string name="mTextFile_alert_not_remove">You can\'t remove this item atleast one item is necessary.</string>
+    <string name="mTextFile_alert_noAgentToChat">Agents will be added when you got new audit assigned.</string>
+    <string name="mTextFile_alert_folder_name">Please enter folder name and count</string>
+    <string name="mTextFile_alert_check_internet">Please check your internet connection</string>
+    <string name="mTextFile_alert_sync_data_successfully">Your data has been successfully submitted</string>
+    <string name="mTextFile_location_answer">Please give some answer to the location question</string>
+    <string name="mText_change_password">Change Password</string>
+    <string name="mTextFile_select_option">Select Option</string>
+    <string name="mTextFile_select_country_standard">Select Country Standard</string>
+    <string name="mTextFile_low">Low</string>
+    <string name="mTextFile_medium">Medium</string>
+    <string name="mTextFile_high">High</string>
+    <string name="mTextFile_ppp">PPP</string>
+    <string name="mTextTitle_report">REPORT</string>
+    <string name="mTextFile_full_audit_by">Full Audit By</string>
+    <string name="mTextFile_mini_audit_by">Mini Audit By</string>
+
+
+    <string name="mText_alert_audit_start">By clicking you confirm your audit start date will be today's date. So would you like to continue?</string>
+
+
+    <string-array name="question_priority">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>PPP</item>
+    </string-array>
+
+
+</resources>

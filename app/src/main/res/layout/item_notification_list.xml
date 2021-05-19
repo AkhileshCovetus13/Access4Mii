@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/rounded_corner_notification_item"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/mLeftLayout"
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/ic_notification_circule"
+            android:layout_gravity="center">
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:id="@+id/mTxtCount"
+                android:textColor="@color/colorPrimary"
+                android:text="1"
+                android:textSize="10dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+        <ABS_CUSTOM_VIEW.TextViewRegular
+            android:layout_gravity="center"
+            android:id="@+id/mTxtDay"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12" />
+
+        <ABS_CUSTOM_VIEW.TextViewSemiBold
+            android:id="@+id/mTxtTime"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:45 PM" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/mLeftLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:src="@mipmap/ic_placeholder_user"
+            android:id="@+id/mImgUserProfile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter" />
+
+
+        <ABS_CUSTOM_VIEW.TextViewSemiBold
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/mImgUserProfile"
+            android:id="@+id/mTxtTitle"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audit" />
+
+        <ABS_CUSTOM_VIEW.TextViewRegular
+            android:layout_below="@+id/mImgUserProfile"
+            android:id="@+id/mTxtDesc"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orbit Mall" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

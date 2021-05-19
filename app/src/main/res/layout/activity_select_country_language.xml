@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:elevation="2dp"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/mLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/mImageBack"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_next_arrow" />
+
+
+    </RelativeLayout>
+
+
+    <ABS_CUSTOM_VIEW.TextViewBold
+        android:id="@+id/mTxtTitle"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/mLayoutTop"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mText_select_option_below" />
+
+
+    <RelativeLayout
+        android:id="@+id/mTextnor"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/mTxtTitle"
+        android:background="@drawable/white_border_shap"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ABS_CUSTOM_VIEW.TextViewBold
+
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mText_click_on_help" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/mTextCan"
+        android:layout_below="@+id/mTextnor"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="20dp"
+        android:background="@drawable/rounded_corner_white_shap"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ABS_CUSTOM_VIEW.TextViewBold
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/colorDarkGrey"
+                android:text="@string/nText_country_standard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="240dp"
+                android:src="@mipmap/ic_info_icon" />
+        </RelativeLayout>
+
+        <Spinner
+            android:id="@+id/mSpinnerCountryStandard"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ABS_CUSTOM_VIEW.TextViewBold
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/colorDarkGrey"
+                android:text="@string/mText_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="240dp"
+                android:src="@mipmap/ic_info_icon" />
+        </RelativeLayout>
+
+        <Spinner
+            android:id="@+id/mSpinnerLanguageStandard"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ABS_CUSTOM_VIEW.TextViewBold
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/colorDarkGrey"
+                android:text="Select Main Building Image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/mImgSelect"
+                android:src="@mipmap/ic_camera_image"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/mImgSelected"
+            android:src="@drawable/car_park"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/mTextCan"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mLayoutDone"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/white_border_round_corner_shap">
+
+        <ABS_CUSTOM_VIEW.TextViewSemiBold
+            android:id="@+id/mTextNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/mtextFile_done"
+            android:textColor="@color/white"
+            android:textSize="19dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

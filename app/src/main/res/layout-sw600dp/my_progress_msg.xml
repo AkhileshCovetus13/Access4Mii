@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <RelativeLayout
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:id="@+id/mLayoutGreen"
+         android:layout_centerInParent="true"
+         android:background="@drawable/green_loader">
+
+          <ImageView
+              android:id="@+id/mImgBlue"
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:src="@drawable/blue_loader"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"/>
+
+     </RelativeLayout>
+
+     <ABS_CUSTOM_VIEW.TextViewSemiBold
+         android:textColor="@color/white"
+         android:layout_marginBottom="50dp"
+         android:textSize="25dp"
+         android:layout_marginTop="10dp"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentBottom="true"
+         android:text="Please Wait Data Downloading..."
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner_layer_darkgrey"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <ABS_CUSTOM_VIEW.TextViewSemiBold
+        android:id="@+id/mTxtMeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="Edit picture"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+
+</LinearLayout>

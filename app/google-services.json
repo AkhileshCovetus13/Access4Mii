@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "919999837328",
+    "firebase_url": "https://access4mii-e7eaa.firebaseio.com",
+    "project_id": "access4mii-e7eaa",
+    "storage_bucket": "access4mii-e7eaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919999837328:android:c93d1c5f23578d41",
+        "android_client_info": {
+          "package_name": "com.covetus.audit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919999837328-adjs80oh1esppklt0a5r8377sn4ck70m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWY6XqqLlwHQw3KL1hEffLXYgjZBUPefQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919999837328-adjs80oh1esppklt0a5r8377sn4ck70m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

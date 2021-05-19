@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Access4Mii"</string>
+
+    <string name="mTextTitle_app">"الوصول 4 mii"</string>
+    <string name="mTextTitle_login">"تسجيل الدخول"</string>
+    <string name="mTextTitle_forget">"هل نسيت كلمة المرور؟"</string>
+    <string name="mTextTitle_inspector">"مفتش"</string>
+    <string name="mTextTitle_auditor">"مدقق حسابات"</string>
+    <string name="mTextTitle_agent_list">"قائمة الوكلاء"</string>
+    <string name="mTextTitle_submit">"خضع"</string>
+    <string name="mTextTitle_save">"حفظ"</string>
+    <string name="mTextTitle_new_password">"كلمة السر الجديدة"</string>
+    <string name="mTextTitle_confirm_password">"تأكيد كلمة المرور"</string>
+    <string name="mTextTitle_update_profile">"تحديث الملف"</string>
+    <string name="mTextTitle_contact_us">"اتصل بنا"</string>
+    <string name="mTextTitle_sugesstion">"اقتراحات / تعليقات"</string>
+    <string name="mTextTitle_profile">"الملف الشخصي"</string>
+    <string name="mTextTitle_messages">"رسائل"</string>
+    <string name="mTextTitle_audit_overview">"نظرة عامة على التدقيق"</string>
+    <string name="mTextTile_forgot_your_password">"نسيت رقمك السري؟"</string>
+    <string name="mTextTitle_notification">"إعلام"</string>
+    <string name="mTextBtnClear_notification">Clear All</string>
+    <string name="mTextTitle_Setting">"الإعدادات"</string>
+    <string name="mTextTitle_my_audit">"التدقيق الخاص بي"</string>
+    <string name="mTextTitle_email_text">"أدخل عنوان بريدك الإلكتروني لإعادة تعيين كلمة المرور الخاصة بك"</string>
+    <string name="mTextTitle_chat_with_admin">"الدردشة مع المشرف"</string>
+    <string name="mTextTitle_build_audit">"بناء تدقيق"</string>
+    <string name="mTextTitle_selected_location">"الموقع المختار"</string>
+    <string name="mTextTitle_draft">"مشروع"</string>
+    <string name="mTextTitle_media">"وسائل الإعلام"</string>
+
+    <string name="mTextMenu_Account">"الحساب"</string>
+    <string name="mTextMenu_History">"التاريخ"</string>
+    <string name="mTextMenu_Reports">"تقارير"</string>
+    <string name="mTextMenu_language">"لغة"</string>
+    <string name="mTextMenu_Help">"مساعدة"</string>
+    <string name="mTextMenu_Logout">"الخروج"</string>
+
+    <string name="mText_forgot_your_password">"نسيت رقمك السري؟"</string>
+    <string name="mText_reset_password">"اعد ضبط كلمه السر"</string>
+    <string name="mText_enter_password_here">"أدخل كلمة المرور الخاصة بك هنا"</string>
+    <string name="mText_old_password">"كلمة المرور القديمة"</string>
+    <string name="mText_update">"تحديث"</string>
+    <string name="mText_send">"إرسال"</string>
+    <string name="mText_update_details">"تحديث التفاصيل"</string>
+    <string name="mText_chat_with_admin">"الدردشة مع المسؤول"</string>
+    <string name="mText_share_audit">"مشاركة ACCESS4MII"</string>
+    <string name="mText_how_to_use">"كيف تستعمل"</string>
+    <string name="mText_language">"لغة"</string>
+    <string name="mText_push_notification">"دفع الإخطار"</string>
+    <string name="mText_audit">"تدقيق"</string>
+    <string name="mText_message">"رسالة"</string>
+    <string name="mText_report">"أبلغ عن"</string>
+    <string name="mText_pages">"صفحات"</string>
+    <string name="mText_about_us">"معلومات عنا"</string>
+    <string name="mText_term_and_condition">"الأحكام والشروط"</string>
+    <string name="mtext_standard_and_good_practices">"ممارسات قياسية وجيدة"</string>
+    <string name="mText_news">"أخبار"</string>
+    <string name="mText_contact_us">"اتصل بنا"</string>
+    <string name="mText_field_contact_us">"اتصل بنا"</string>
+    <string name="mText_help">"مساعدة"</string>
+    <string name="mText_target_date">"تاريخ محدد:"</string>
+    <string name="mText_assign_by">"عين من:"</string>
+    <string name="mText_title">"عنوان:"</string>
+    <string name="mText_view">"رأي"</string>
+    <string name="mText_reject">"رفض"</string>
+    <string name="mText_accept">"قبول"</string>
+    <string name="mText_agent_detail">"تفاصيل الوكيل"</string>
+    <string name="mText_client_detail">"الشخص الذي يمكن الاتصال به"</string>
+    <string name="mText_attachment_details">"تفاصيل المرفقات"</string>
+    <string name="mText_back_again">"اضغط مرة أخرى للخروج"</string>
+    <string name="mText_success">"تم تحديث ملفك الشخصي بنجاح"</string>
+    <string name="mText_data_saved">"تم حفظ السؤال بنجاح"</string>
+    <string name="mText_Thanku">"شكرا جزيلا !"</string>
+    <string name="mText_Thanku_content">"أشكركم على الاتصال بنا !"</string>
+    <string name="mText_home">"الصفحة الرئيسية"</string>
+    <string name="mText_logout">"الخروج"</string>
+    <string name="mText_yes">"نعم فعلا"</string>
+    <string name="mText_no">"لا"</string>
+    <string name="mText_send_chat_request">"أرسل طلب الدردشة لبدء الدردشة مع المسؤول"</string>
+    <string name="mText_locations_selected">"المواقع المختارة لهذا التدقيق / التفتيش"</string>
+    <string name="mText_change_password">"غير كلمة السر"</string>
+    <string name="mText_new_password">"كلمة السر الجديدة"</string>
+    <string name="mText_confirm_password">"تأكيد كلمة المرور"</string>
+    <string name="mText_select_option_below">"حدد الخيار أدناه"</string>
+    <string name="mText_click_on_help">"انقر على رمز المساعدة لعرض تفاصيل حول معيار البلد واللغة"</string>
+    <string name="nText_country_standard">"معيار الدولة"</string>
+    <string name="mText_next">"التالى"</string>
+    <string name="mText_desc">"وصف"</string>
+    <string name="mText_information_box">"صندوق المعلومات"</string>
+    <string name="mText_add_a_sub_folder">"إضافة مجلد فرعي؟"</string>
+    <string name="mText_folder_name">"إسم الملف"</string>
+    <string name="mText_add">"إضافة"</string>
+    <string name="mText_camera">"الة تصوير"</string>
+    <string name="mText_document">"وثيقة"</string>
+    <string name="mText_cancel">"إلغاء"</string>
+    <string name="mTxt_save">"حفظ"</string>
+    <string name="mText_add_photo">"إضافة صورة"</string>
+    <string name="mText_delete">"حذف"</string>
+    <string name="mText_edit_photo">"تعديل الصورة"</string>
+    <string name="mText_content">"يحتوى"</string>
+    <string name="mText_warning">"تحذير !"</string>
+    <string name="mText_select_a_file">"حدد ملف"</string>
+    <string name="mText_alert">"محزر"</string>
+    <string name="mText_ok">"حسنا"</string>
+    <string name="mText_update_title_and_description">"تحديث العنوان والوصف"</string>
+    <string name="mText_alert_sync_audit">"هل ترغب في مزامنة البيانات الخاصة بك على الخادم. بمجرد بدء أو مزامنة البيانات ، لن تتمكن من إجراء أي تغييرات إضافية. هل تريد الاستمرار؟"</string>
+    <string name="mText_in_progress">"في تقدم"</string>
+    <string name="mText_in_complete">"غير مكتمل"</string>
+    <string name="mText_complete">"اكتمال"</string>
+
+    <string name="mTextFile_date">"تاريخ:"</string>
+    <string name="mTextFile_time">"زمن:"</string>
+    <string name="mTextFile_due_date">"تاريخ محدد:"</string>
+    <string name="mTextFile_area">"منطقة:"</string>
+    <string name="mTextFile_name">"اسم:"</string>
+    <string name="mTextFile_email">"البريد الإلكتروني:"</string>
+    <string name="mTextFile_number">"رقم:"</string>
+    <string name="mTextFile_address">"عنوان:"</string>
+    <string name="mTextFile_landmark">"معلم معروف:"</string>
+    <string name="mTextFile_pincode">"الرقم السري:"</string>
+    <string name="mTextFile_imagename">"img_"</string>
+    <string name="mTextFile_filename">"نتيجة_"</string>
+    <string name="mTextFile_filefolder">"/ملف/"</string>
+    <string name="mTextFile_mediaFolder">"/وسائل الإعلام/"</string>
+    <string name="mTextFile_loading">"جار التحميل..."</string>
+    <string name="mTextFile_auditor">"مدقق حسابات"</string>
+    <string name="mTextFile_inspector">"مفتش"</string>
+    <string name="mtextFile_this">"هذا سوف يحذف"</string>
+    <string name="mtextFile_subfolder_msg">" المجلد الفرعي بما في ذلك الأسئلة المرتبطة به ، هل تريد المتابعة؟"</string>
+    <string name="mtextFile_question_msg">"  أسئلة بما في ذلك subquestion المقترن ، هل تريد المتابعة؟"</string>
+    <string name="mtextFile_foldr_msg">" المجلدات والمجلدات الفرعية بما في ذلك الأسئلة المرتبطة بها ، هل تريد المتابعة؟"</string>
+    <string name="mtextFile_order_procedd">"لمتابعة التدقيق ، يجب عليك تقسيم المجلد الفرعي حسب العدد الكلي!"</string>
+    <string name="mTextFile_give_count">"يرجى تحديد موقع واحد على الأقل"</string>
+    <string name="mTextFile_location">"موقعك"</string>
+    <string name="mtextFile_done">"فعله"</string>
+    <string name="mtextFile_delete">"حذف"</string>
+    <string name="mTextFile_select_lang">"اختار اللغة"</string>
+    <string name="mTextFile_concat_name">"اسم"</string>
+    <string name="mTextFile_concat_module">" وحدة "</string>
+    <string name="mTextFile_no_subfolder">"في هذا الموقع لا يتم إنشاء أي مجلد فرعي"</string>
+    <string name="mTextFile_archive">"أرشيف"</string>
+
+    <string name="mHint_search_by_agent_name">"البحث عن طريق اسم الوكيل"</string>
+    <string name="mHint_search_by_user">"البحث عن طريق المستخدم"</string>
+
+    <string name="mEditHint_password">"كلمه السر"</string>
+    <string name="mEditHint_useremail">"البريد الإلكتروني"</string>
+    <string name="mEditHint_username">"البريد الإلكتروني"</string>
+    <string name="mEditHint_email_address">"أدخل عنوان بريدك الالكتروني"</string>
+    <string name="mEditHint_first_name">"الاسم الاول"</string>
+    <string name="mEditHint_last_name">"الكنية"</string>
+    <string name="mEditHint_email">"عنوان بريد الكتروني"</string>
+    <string name="mEditHint_contact_number">"رقم الاتصال"</string>
+    <string name="mEditHint_subject">"موضوع"</string>
+    <string name="mEditHint_Description">"وصف"</string>
+    <string name="mEditHint_name">"اسم"</string>
+    <string name="mEditHint_type_here">"أكتب هنا"</string>
+    <string name="mEditHint_write_something_here">"اكتب شيئًا هنا .."</string>
+    <string name="mEdithint_location_info">"معلومات الموقع"</string>
+
+    <string name="mText_error_change_your_password_here">"يرجى تغيير كلمة المرور الخاصة بك هنا"</string>
+    <string name="mTextFile_error_valid_email">"الرجاء إدخال عنوان بريد إلكتروني صالح."</string>
+    <string name="mTextFile_error_enter_email">"الرجاء إدخال عنوان البريد الإلكتروني الخاص بك."</string>
+    <string name="mTextFile_error_enter_subject">"يرجى إدخال الموضوع."</string>
+    <string name="mTextFile_error_enter_description">"يرجى إدخال الوصف."</string>
+    <string name="mTextFile_error_enter_password">"من فضلك أدخل رقمك السري."</string>
+    <string name="mTextFile_error_enter_first_name">"يرجى ادخال الاسم الاول."</string>
+    <string name="mTextFile_error_enter_name">"من فضلك أدخل إسمك."</string>
+    <string name="mTextFile_error_enter_last_name">"يرجى إدخال اسمك الأخير."</string>
+    <string name="mTextFile_error_enter_contact">"الرجاء إدخال رقم الاتصال الخاص بك."</string>
+    <string name="mTextFile_error_something_went_wrong">"هناك خطأ ما"</string>
+    <string name="mTextFile_error_no_record_found">"لا يوجد سجلات"</string>
+    <string name="mTextFile_error_current_password">"يرجى إدخال كلمة المرور الحالية."</string>
+    <string name="mTextFile_error_new_password">"يرجى إدخال كلمة المرور الجديدة."</string>
+    <string name="mTextFile_error_reenetr_password">"يرجى إعادة إدخال كلمة المرور الجديدة."</string>
+    <string name="mTextFile_error_character">"يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل."</string>
+    <string name="mTextFile_error_password_not_match">"كلمة المرور الجديدة والتأكيد غير متطابقين."</string>
+    <string name="mTextFile_error_selcet_country_standard">"يرجى تحديد معيار البلد"</string>
+    <string name="mTextFile_error_selcet_language">"يرجى اختيار اللغة"</string>
+    <string name="mTextFile_error_selcet_country">"اختر الدولة القياسية"</string>
+    <string name="mTextFile_error_valid_no">"الرجاء إدخال رقم هاتف صحيح"</string>
+    <string name="mTextFile_error_audit_title">"يرجى إدخال العنوان."</string>
+    <string name="mTextFile_error_audit_desc">"يرجى إدخال الوصف."</string>
+    <string name="mTextFile_error_reinitiate">"إعادة بدء"</string>
+    <string name="mTextFile_error_archive">"أرشيف"</string>
+    <string name="mTextFile_error_sync">"يرجى تزامن قبل بدء التدقيق الجديد"</string>
+    <string name="mTextFile_error_no_internet">"الرجاء الاتصال بالإنترنت لإرسال الرسائل وتلقيها.للوصول الآن ، يُسمح لك بعرض تاريخ الدردشات القديم فقط."</string>
+
+
+    <string name="mText_alert_sessionexpire">"تم تسجيل دخولك بالفعل على جهاز آخر. حاول تسجيل الدخول مرة أخرى !"</string>
+    <string name="mText_alert_logout">"هل أنت متأكد أنك تريد تسجيل الخروج ؟"</string>
+    <string name="mTextFile_alert_no_internet">"أنت غير متصل بالإنترنت."</string>
+    <string name="mTextFile_alert_deny_permission">"لا يمكنك الوصول إلى التطبيق إذا كنت تنكر الإذن!"</string>
+    <string name="mTextfile_alert_new_download">"يتم تحميل ملف جديد بنجاح"</string>
+    <string name="mTextFile_alert_file_downloading">"يرجى الانتظار يتم تنزيل الملف ..."</string>
+    <string name="mTextFile_alert_select_file">"يرجى تحديد الملفات ذات الامتدادات: .doc ، .docx ، .pdf ، .xlsx فقط."</string>
+    <string name="mtextFile_alert_no_image">"لم يتم التقاط أي صورة"</string>
+    <string name="mtextFile_alert_no_filepath">"عذرا ، مسار الملف مفقود!"</string>
+    <string name="mTextFile_alert_file_not_download">"لم يتم تنزيل الملف ، عليك الاتصال بالإنترنت."</string>
+    <string name="mTextFile_alert_no_handler">"لا يوجد معالج لهذا النوع من الملفات."</string>
+    <string name="mTextFile_alert_cannot_open">"لا يمكن فتح هذا الملف."</string>
+    <string name="mTextFile_alert_not_remove">"لا يمكنك إزالة هذا العنصر على الأقل عنصر واحد ضروري."</string>
+    <string name="mTextFile_alert_noAgentToChat">"ستتم إضافة الوكلاء عندما تحصل على مراجعة جديدة."</string>
+    <string name="mTextFile_alert_folder_name">"يرجى إدخال اسم المجلد والعد"</string>
+    <string name="mTextFile_alert_check_internet">"الرجاء التحقق من اتصال الانترنت الخاص بك"</string>
+    <string name="mTextFile_alert_sync_data_successfully">"تم إرسال بياناتك بنجاح"</string>
+    <string name="mTextFile_error_no_internet_agent">يرجى الاتصال بالإنترنت لبدء دردشة جديدة مع الوكيل.</string>
+    <string name="mTextFile_location_answer">يرجى إعطاء بعض الإجابة على سؤال الموقع</string>
+
+    <string name="mTextFile_select_option">حدد الخيار</string>
+    <string name="mTextFile_select_country_standard">اختر الدولة القياسية</string>
+    <string name="mTextFile_low"> واطىء</string>
+    <string name="mTextFile_medium">مُتَوَسِّط</string>
+    <string name="mTextFile_high">رَفيع</string>
+    <string name="mTextFile_ppp">PPP</string>
+    <string name="mTextTitle_report">REPORT</string>
+    <string name="mTextFile_full_audit_by">Full Audit By</string>
+    <string name="mTextFile_mini_audit_by">Mini Audit By</string>
+
+    <string name="mText_alert_audit_start">   بالنقر على تأكيدك ، سيكون تاريخ بدء التدقيق هو تاريخ اليوم. هل ترغب في المتابعة؟</string>
+
+
+    <string-array name="question_priority">
+        <item>واطىء</item>
+        <item>مُتَوَسِّط</item>
+        <item>رَفيع</item>
+        <item>PPP</item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_layout_item"
+    android:layout_width="200dp"
+    android:layout_height="65dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginRight="17dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/transparent">
+
+
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:weightSum="5"
+        android:id="@+id/mMainViewLocationBox"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_corner_location_box_high_redious">
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:id="@+id/mLayoutInfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ABS_CUSTOM_VIEW.TextViewBold
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                tools:text="Accessible"
+                android:textStyle="bold"
+                android:textSize="14dp"
+
+                />
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="11dp"
+                tools:text="10" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/mCountButtonLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:id="@+id/mLayoutAddCount"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/one_corner_top_right">
+
+                <ABS_CUSTOM_VIEW.TextViewBold
+                    android:id="@+id/mTextPlus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    tools:text="+" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mLayoutMinCount"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/one_corner_bottom_right">
+
+                <ABS_CUSTOM_VIEW.TextViewBold
+                    android:id="@+id/mTextMin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    tools:text="-" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/mImgRemove"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_cross_mark" />
+
+</RelativeLayout>
+
+

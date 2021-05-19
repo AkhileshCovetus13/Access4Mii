@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:elevation="2dp"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:id="@+id/mImgLayout"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/rounded_img_circle">
+
+        <ImageView
+            android:padding="2dp"
+            android:id="@+id/mImgChatUser"
+            android:src="@mipmap/ic_placeholder_user"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_toEndOf="@+id/mImgLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/mTextUserName"
+                android:padding="2dp"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:text="Akhilesh Pathak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ABS_CUSTOM_VIEW.TextViewRegular
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:padding="2dp"
+                android:id="@+id/mTextUserLastMsgDate"
+                android:textSize="15dp"
+                android:textColor="@color/colorDarkBlack"
+                android:text="Dec 31, 2018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+        <ABS_CUSTOM_VIEW.TextViewRegular
+            android:padding="2dp"
+            android:id="@+id/mTextUserLastMsg"
+            android:textSize="20dp"
+            android:textColor="@color/colorLightBlack"
+            android:text="In addition to acting, he has also worked as a producer and screenwriter. Apart from his film career, he is also a philanthropist"
+            android:maxLines="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

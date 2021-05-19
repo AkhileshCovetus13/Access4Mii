@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/colorPrimary"
+    app:contentInsetEnd="0dp"
+    app:contentInsetStart="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/mImageMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:src="@mipmap/ic_menu_white" />
+
+        <ABS_CUSTOM_VIEW.TextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="@string/mTextTitle_app"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/mImgNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/ic_bell_white" />
+
+
+        <ABS_CUSTOM_VIEW.TextViewRegular
+            android:visibility="gone"
+            android:id="@+id/mTxtNotificationCount"
+            android:textSize="12dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="10"
+            android:background="@drawable/red_dot"
+            android:layout_width="21dp"
+            android:layout_height="21dp" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>

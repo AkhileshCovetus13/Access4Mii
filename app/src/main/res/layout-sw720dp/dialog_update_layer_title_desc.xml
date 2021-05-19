@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/black_border_ractangel_shap"
+    android:layout_height="wrap_content">
+
+    <ABS_CUSTOM_VIEW.TextViewSemiBold
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mText_update_title_and_description"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ABS_CUSTOM_VIEW.EditTextSemiBold
+            android:id="@+id/mEditLayerTitle"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/black_border_round_corner_shap"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:lines="2"
+            android:textColor="@color/black"
+            android:hint="@string/mText_title"
+            android:layout_height="wrap_content" />
+
+        <ABS_CUSTOM_VIEW.EditTextSemiBold
+            android:layout_marginTop="30dp"
+            android:id="@+id/mEditLayerDescription"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/black_border_round_corner_shap"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:lines="5"
+            android:textColor="@color/black"
+            android:hint="@string/mText_desc"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <ABS_CUSTOM_VIEW.TextViewBold
+        android:id="@+id/mTxtUpdateButton"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:background="@drawable/rounded_corner_signin_button"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mText_update"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mLayoutMain"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGrey">
+
+    <RelativeLayout
+        android:id="@+id/mLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/mImageBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:src="@mipmap/ic_actionbar_back" />
+
+        <ABS_CUSTOM_VIEW.TextViewSemiBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textAllCaps="true"
+            android:text="@string/mTextTitle_Setting"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewBold
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_push_notification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/mImgMainToggale"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/toggle_off"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="60dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:layout_centerVertical="true"
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_audit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/mImgAudit"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/toggle_off"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:layout_centerVertical="true"
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/mImgMessage"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/toggle_off"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:layout_centerVertical="true"
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_report"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/mImgReport"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/toggle_off"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewBold
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_pages"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mLayoutAboutUs"
+                    android:layout_marginTop="60dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:layout_centerVertical="true"
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_about_us"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <ImageView
+                        android:layout_alignParentEnd="true"
+                        android:src="@mipmap/ic_setting_forwardarrow"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mLayoutTerm"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:layout_centerVertical="true"
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_term_and_condition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_alignParentEnd="true"
+                        android:src="@mipmap/ic_setting_forwardarrow"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mLayoutStandard"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:layout_centerVertical="true"
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mtext_standard_and_good_practices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_alignParentEnd="true"
+                        android:src="@mipmap/ic_setting_forwardarrow"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mLayoutNews"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:layout_centerVertical="true"
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_news"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_alignParentEnd="true"
+                        android:src="@mipmap/ic_setting_forwardarrow"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewBold
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_contact_us"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/mLayoutContactUs"
+                    android:layout_marginTop="60dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_field_contact_us"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mLayoutChangePassword"
+                    android:layout_marginTop="17dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_change_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mLayoutHelp"
+                    android:layout_marginTop="17dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_help"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mLayoutLogout"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:layout_centerVertical="true"
+                        android:textSize="25dp"
+                        android:textColor="@color/black"
+                        android:text="@string/mText_logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_alignParentEnd="true"
+                        android:src="@mipmap/ic_setting_logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

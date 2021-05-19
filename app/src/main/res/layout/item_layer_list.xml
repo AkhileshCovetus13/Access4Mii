@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/mLayoutMain"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_toStartOf="@+id/mLayoutGrid"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_weight="1.7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+          <!--  <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:id="@+id/mTxtTitle"
+                android:textSize="5dp"
+                android:layout_width="wrap_content"
+                android:text="hjdshjshs hskhs"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />-->
+
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_width="wrap_content"
+                android:id="@+id/mTxtTitle"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="hellooooooo "
+                android:layout_height="wrap_content" />
+
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/mTxtTitle"
+                android:id="@+id/mTxtDecs"
+                android:textSize="16dp"
+                android:text="hekko uytu "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/mTxtDecs"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp">
+
+                <RelativeLayout
+                    android:id="@+id/mLayoutView"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/rounded_corner_view_button">
+
+                    <ABS_CUSTOM_VIEW.TextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/mText_view"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginStart="5dp"
+                    android:id="@+id/mLayoutArchive"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/rounded_corner_archive_button">
+
+                    <ABS_CUSTOM_VIEW.TextViewBold
+                        android:id="@+id/mTextArchive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="bold"
+                        android:text="@string/mTextFile_archive"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mImgUpdateData"
+                android:src="@mipmap/ic_update_sub_group"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/mImgUpdateData"
+                android:id="@+id/mImgDelete"
+                android:src="@mipmap/ic_cancel_active"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mLayoutGrid"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:layout_width="90dp"
+        android:layout_height="130dp">
+
+
+
+        <GridView
+            android:nestedScrollingEnabled="true"
+            android:horizontalSpacing="5dp"
+            android:numColumns="2"
+            android:verticalSpacing="5dp"
+            android:id="@+id/simpleGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+        </GridView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

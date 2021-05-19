@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="5dp">
+
+<LinearLayout
+    android:background="@drawable/rounded_corner_notification_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_weight="1.5"
+        android:layout_margin="5dp"
+        android:id="@+id/mQuesLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ABS_CUSTOM_VIEW.TextViewSemiBold
+            android:id="@+id/mTxtQuestion"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Are the accesible bays posted fro car park entrance?"
+            android:textSize="19dp" />
+
+        <RelativeLayout
+            android:id="@+id/mLayoutQuesOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+
+            <RelativeLayout
+                android:id="@+id/mLayoutYes"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/rounded_corner_layer_darkgrey">
+
+                <ABS_CUSTOM_VIEW.TextViewRegular
+                    android:id="@+id/mTextYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:maxLength="10"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:id="@+id/mLayoutNo"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/mLayoutYes"
+                android:background="@drawable/rounded_corner_layer_darkgrey">
+
+                <ABS_CUSTOM_VIEW.TextViewRegular
+                    android:id="@+id/mTextNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:maxLength="10"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.4"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/mImgAddPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="65dp"
+                android:layout_height="65dp">
+                <ImageView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/mImgCamera"
+                    android:src="@mipmap/ic_camera_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:id="@+id/mImgQues"
+                    android:src="@mipmap/ic_camera_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/mImgCancel"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@mipmap/ic_cross_mark" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1.1"
+        android:id="@+id/mCommnetLayout"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/mLayoutQuesLevel"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner_layer_blue">
+
+            <Spinner
+                android:id="@+id/mSpinnerQuesLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:spinnerMode="dropdown"
+                android:popupBackground="@color/colorDarkGrey" />
+
+            <ImageView
+                android:id="@+id/mImageDropDown"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="5dp"
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/ic_dropdown" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ABS_CUSTOM_VIEW.EditTextRegular
+                android:focusableInTouchMode="false"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:gravity="top|start"
+                android:id="@+id/mEditComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/rounded_corner_notification_item"
+                android:inputType="textMultiLine"
+                android:hint="@string/mEditHint_write_something_here"
+                android:padding="5dp"
+                android:textColor="@color/abs_text_color_blacktuch"
+                android:textColorHint="@color/abs_text_color_blacktuch"
+                android:lines="4"
+                android:maxLines="4"
+                android:scrollbars="vertical"
+                android:textSize="17dp" />
+
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/mImgInspectorQuestion"
+                android:src="@mipmap/icon_inspector_question"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/mImgExtraText"
+                android:src="@mipmap/icon_text_editer"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mPriority"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/mExtraText"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+
+        android:id="@+id/mImageText"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+
+        android:id="@+id/mQuesionId"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/mQuesionServerId"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/mAnswerId"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/mAnswerValue"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/mQuestionType"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/mInspectorQuestion"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/mQuestionSub"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/mQuestionFor"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/mMainQuestion"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+
+</LinearLayout>

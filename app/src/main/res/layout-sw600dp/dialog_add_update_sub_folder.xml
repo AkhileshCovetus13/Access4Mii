@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/black_border_ractangel_shap"
+    android:layout_height="wrap_content">
+
+    <ABS_CUSTOM_VIEW.TextViewSemiBold
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mText_add_a_sub_folder"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ABS_CUSTOM_VIEW.EditTextSemiBold
+            android:id="@+id/mEditFolderName"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/black_border_round_corner_shap"
+            android:gravity="top"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:lines="5"
+            android:textColor="@color/black"
+            android:hint="@string/mText_folder_name"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mImgCountUp"
+                android:src="@mipmap/ic_sub_folder_count_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+           <ABS_CUSTOM_VIEW.TextViewSemiBold
+               android:id="@+id/mTxtCount"
+               android:background="@color/colorGrey"
+               android:paddingEnd="40dp"
+               android:paddingStart="40dp"
+               android:paddingTop="20dp"
+               android:paddingBottom="20dp"
+               android:textSize="18dp"
+               android:textColor="@color/black"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="20"/>
+
+            <ImageView
+                android:id="@+id/mImgCountDown"
+                android:src="@mipmap/ic_sub_folder_count_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ABS_CUSTOM_VIEW.TextViewBold
+            android:layout_marginEnd="20dp"
+            android:id="@+id/mTxtCancelButton"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            android:background="@drawable/rounded_corner_signin_button"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mText_cancel"/>
+
+        <ABS_CUSTOM_VIEW.TextViewBold
+            android:layout_marginStart="20dp"
+            android:id="@+id/mTxtAddButton"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingStart="75dp"
+            android:paddingEnd="75dp"
+            android:background="@drawable/rounded_corner_signin_button"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mText_add"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

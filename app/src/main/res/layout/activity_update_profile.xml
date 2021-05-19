@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/mainTop"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:id="@+id/mLayoutTop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/mImageBack"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_next_arrow" />
+
+            <ABS_CUSTOM_VIEW.TextViewSemiBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textAllCaps="true"
+                android:text="@string/mTextTitle_update_profile"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/mLayoutTop"
+            android:layout_marginStart="30dp"
+            android:id="@+id/mImgUserProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/mImgAddImage"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/ic_gallery_icon"
+            android:layout_below="@+id/mLayoutTop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter" />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_below="@+id/mainTop"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_user" />
+
+                    <ABS_CUSTOM_VIEW.EditTextRegular
+                        android:id="@+id/mEditFirstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="viewStart"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/transparent"
+                        android:inputType="textEmailAddress"
+                        android:hint="@string/mEditHint_first_name"
+                        android:imeOptions="actionNext"
+                        android:padding="3dp"
+                        android:textColor="@color/abs_text_color_blacktuch"
+                        android:textColorHint="@color/abs_text_color_blacktuch"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/abs_text_color_blacktuch" />
+
+
+                <LinearLayout
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_user" />
+
+                    <ABS_CUSTOM_VIEW.EditTextRegular
+                        android:id="@+id/mEditLastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="viewStart"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/transparent"
+                        android:inputType="text"
+                        android:imeOptions="actionNext"
+                        android:hint="@string/mEditHint_last_name"
+                        android:padding="3dp"
+                        android:textColor="@color/abs_text_color_blacktuch"
+                        android:textColorHint="@color/abs_text_color_blacktuch"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/abs_text_color_blacktuch" />
+
+
+                <LinearLayout
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_email_address" />
+
+                    <ABS_CUSTOM_VIEW.EditTextRegular
+                        android:id="@+id/mEditEmailAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="viewStart"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/transparent"
+                        android:inputType="textEmailAddress"
+                        android:imeOptions="actionNext"
+                        android:hint="@string/mEditHint_email"
+                        android:focusable="false"
+                        android:editable="false"
+                        android:clickable="false"
+                        android:padding="3dp"
+                        android:textColor="@color/abs_text_color_blacktuch"
+                        android:textColorHint="@color/abs_text_color_blacktuch"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/abs_text_color_blacktuch" />
+
+
+                <LinearLayout
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_contact_number" />
+
+                    <ABS_CUSTOM_VIEW.EditTextRegular
+                        android:id="@+id/mEditContactNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="viewStart"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/transparent"
+                        android:inputType="phone"
+                        android:gravity="start"
+                        android:imeOptions="actionDone"
+                        android:hint="@string/mEditHint_contact_number"
+                        android:maxLength="10"
+                        android:padding="3dp"
+                        android:textColor="@color/abs_text_color_blacktuch"
+                        android:textColorHint="@color/abs_text_color_blacktuch"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/abs_text_color_blacktuch" />
+
+
+                <RelativeLayout
+                    android:id="@+id/mLayoutUpdate"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/rounded_corner_signin_button">
+
+                    <ABS_CUSTOM_VIEW.TextViewSemiBold
+                        android:id="@+id/mTextNormal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/mText_update"
+                        android:textColor="@color/white"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

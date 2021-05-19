@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_semi_corner_dialog_bg"
+    android:orientation="vertical">
+
+    <ABS_CUSTOM_VIEW.TextViewSemiBold
+        android:id="@+id/mTextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="@string/mText_warning"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner_dialog_bg_white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ABS_CUSTOM_VIEW.TextViewRegular
+            android:id="@+id/mTxtMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/mText_alert_sync_audit"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/mLayoutYes"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rounded_corner_signin_button">
+
+                <ABS_CUSTOM_VIEW.TextViewSemiBold
+                    android:id="@+id/mTextInspectorButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="@string/mText_yes"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginStart="5dp"
+                android:id="@+id/mLayoutNo"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rounded_corner_audit_accept">
+
+                <ABS_CUSTOM_VIEW.TextViewSemiBold
+                    android:id="@+id/mTextAuditerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="@string/mText_no"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
